@@ -1,4 +1,4 @@
 # MovieTheaterSeatAssignment
-Description 
+# Description 
 Movie theater seats traditionally let the people choose their own seats which can lead to too many sparse gaps between groups or people deciding to sit too close to others and that can be uncomfortable. This algorithm is a greedy algorithm that picks the best scored seats when assigning movie theater seats for people buying tickets while also maintaining space in between all groups. The scoring is based on a fairness map that I created; I used factors such as distance from center, aisle seats, sitting too close to the front, and sitting in the middle back to determine each individual seat's overall score. Each possible seating arrangement is checked and the best score is obtained and used to determine where the group sits, the movie seating arrangement is then marked as reserved and the seat to the right and left of the group is marked as unavailable in order to maintain space. A limitation of the algorithm is not being able to cancel reservations made and update the movie theater grid seats as available, this is a feature I want to implement in the future.
 
